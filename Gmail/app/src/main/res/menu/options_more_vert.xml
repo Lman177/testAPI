@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Mark as unread"
+        android:id="@+id/Mark_as_unread"/>
+    <item
+        android:title="Mark as important"
+        android:id="@+id/Mark_as_important"/>
+    <item
+        android:title="Add star"
+        android:id="@+id/add_star"/>
+    <item
+        android:title="Create event"
+        android:id="@+id/create_event"/>
+    <item
+        android:title="Mute"
+        android:id="@+id/mute"/>
+</menu>

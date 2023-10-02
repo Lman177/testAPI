@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inbox"
+            android:title="@string/inbox_1"
+            android:icon="@drawable/inbox"
+
+            android:visible="true"/>
+    </group>
+        <item android:title="@string/lables">
+
+            <menu>
+                <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/star"
+                    android:title="@string/starred"
+                    android:icon="@drawable/stargg"
+                    />
+                <item
+                    android:id="@+id/sent"
+                    android:title="@string/sent"
+                    android:icon="@drawable/sendgg"/>
+                <item
+                    android:id="@+id/snoozed"
+                    android:title="@string/snoozed"
+                    android:icon="@drawable/snoozed" />
+                <item
+                    android:id="@+id/allmail"
+                    android:title="@string/all_mail"
+                    android:icon="@drawable/allmailgg" />
+                <item
+                    android:id="@+id/spam"
+                    android:title="@string/spam"
+                    android:icon="@drawable/spamgg"/>
+                <item
+                    android:id="@+id/trash"
+                    android:title="Trash"
+                    android:icon="@drawable/trashgg" />
+
+                </group>
+            </menu>
+        </item>
+        <item android:title="@string/settings">
+            <menu>
+                <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings_1"
+            android:icon="@drawable/settingsgg" />
+        <item
+            android:id="@+id/logout"
+            android:title="@string/log_out"
+            android:icon="@drawable/logoutgg"/>
+
+                </group>
+            </menu>
+        </item>
+</menu>

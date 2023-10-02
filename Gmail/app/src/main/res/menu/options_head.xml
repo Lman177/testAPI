@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Reply"
+        android:id="@+id/reply"/>
+    <item
+        android:title="Forward"
+        android:id="@+id/forward"/>
+    <item
+        android:title="Print"
+        android:id="@+id/print"/>
+    <item
+        android:title="Delete"
+        android:id="@+id/delete"/>
+    <item
+        android:title="Report"
+        android:id="@+id/report"/>
+    <item
+        android:title="Dowload"
+        android:id="@+id/dowload"/>
+    <item
+        android:title="Mark"
+        android:id="@+id/mark"/>
+</menu>

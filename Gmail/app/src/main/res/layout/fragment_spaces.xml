@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AllMailFragment"
+    android:background="@color/background_all">
+
+
+    <TextView
+        android:id="@+id/chattext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spaces"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:alpha="0.7"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spaces_are_where_team_magic_happens_find_or_create_spaces_using_the_new_space_button"
+        android:layout_below="@+id/chattext1"
+        android:fontFamily="@font/light"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:padding="18dp"
+        android:alpha="0.7"/>
+
+</RelativeLayout>

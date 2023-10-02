@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/from_popup"
+        android:title="from:     hoangnam@gmail.com"/>
+
+    <item
+        android:id="@+id/reply_popup"
+        android:title="reply-to: quangdung@gmail.com"/>
+
+    <item
+        android:id="@+id/Bcc_popup"
+        android:title="bcc:        bi12-ict@st.usth.edu.vn"/>
+
+    <item
+        android:id="@+id/date_popup"
+        android:title="date:      Sep 20, 2023, 10:12 AM "/>
+</menu>

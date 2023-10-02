@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AllMailFragment"
+    android:background="@color/background_all">
+
+
+   <TextView
+       android:id="@+id/chattext1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/chat_1"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="15dp"
+       android:alpha="0.7"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_someone_to_chat_with_by_tapping_the_new_chat_button"
+        android:layout_below="@+id/chattext1"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/light"
+        android:padding="18dp"
+        android:alpha="0.7"/>
+
+</RelativeLayout>

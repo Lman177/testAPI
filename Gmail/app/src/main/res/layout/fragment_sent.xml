@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/main_container"
+    android:orientation="vertical"
+    android:background="@color/background_all">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/background_all"
+        >
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-10dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5dp"
+            android:layout_toEndOf="@id/imageview"
+            android:textColor="@color/black"
+            android:fontFamily="@font/robotomedium"
+            android:textStyle="bold"
+            android:alpha="0.8"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="3dp"
+            android:fontFamily="@font/light"
+            android:text="Sep 19"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/head_email"
+            android:layout_below="@id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotolight"
+            android:layout_toEndOf="@id/imageview"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="-5dp"
+            android:text="Head Mail"/>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/robotolight"
+            android:layout_below="@+id/head_email"
+            android:layout_toRightOf="@+id/imageview"
+            android:layout_marginLeft="-5dp"
+            android:text="Content"
+            android:textSize="14dp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head_email"
+            android:fontFamily="@font/light"
+            android:layout_marginStart="390dp"
+            android:layout_marginTop="-3dp"
+            android:src="@drawable/ic_star1" />
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

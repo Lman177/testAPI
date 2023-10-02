@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Normal state (unpressed) -->
+    <item android:state_pressed="false">
+        <shape android:shape="line">
+            <stroke android:color="#007ACC" android:width="28dp" />
+        </shape>
+    </item>
+    <!-- Pressed state -->
+    <item android:state_pressed="true">
+        <shape android:shape="line">
+            <stroke android:color="#005299" android:width="28dp" />
+        </shape>
+    </item>
+</selector>
