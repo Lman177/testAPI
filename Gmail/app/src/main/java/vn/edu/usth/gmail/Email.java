@@ -1,5 +1,7 @@
 package vn.edu.usth.gmail;
 
+import java.sql.Timestamp;
+
 public class Email {
     String name;
     String head_mail;
@@ -7,35 +9,15 @@ public class Email {
     String date;
     int image;
     String id;
-    String publisher;
+    Timestamp timestamp;
 
 
-    public Email(String name, String head_mail, String content, int image, String date,String id, String publisher) {
-        this.name = name;
-        this.head_mail = head_mail;
-        this.content = content;
-        this.image = image;
-        this.date = date;
-        this.id = id;
-        this.publisher = publisher;
+
+
+    public Email() {
 
     }
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getPublisher() {
-        return publisher;
-    }
-
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
-    }
 
     public String getName() {
         return name;
@@ -61,6 +43,14 @@ public class Email {
         this.content = content;
     }
 
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
     public int getImage() {
         return image;
     }
@@ -69,11 +59,20 @@ public class Email {
         this.image = image;
     }
 
-    public String getDate() {
-        return date;
+    public String getId() {
+        return id;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public Timestamp getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(Timestamp timestamp) {
+        this.timestamp = timestamp;
     }
 }
+

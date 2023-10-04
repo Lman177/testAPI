@@ -27,7 +27,7 @@
     <string name="new_space">New space</string>
     <string name="new_meeting">New meeting</string>
     <string name="join_a_meeting">Join a Meeting</string>
-    <string name="spaces_are_where_team_magic_happens_find_or_create_spaces_using_the_new_space_button">Spaces are where team magic happens. Find or create spaces using the new space button.</string>
+    <string name="spaces_are_where_team_magic_happens_find_or_create_spaces_using_the_new_space_button" translatable="false">Spaces are where team magic happens. Find or create spaces using the new space button.</string>
     <string name="spaces">SPACES</string>
     <string name="meetings">MEETINGS</string>
     <string name="please_register_with_your_information">Please register with your information</string>
@@ -51,6 +51,7 @@
     <string name="settings">SETTINGS</string>
     <string name="settings_1">Settings</string>
     <string name="log_out">Log out</string>
+    <string name="from" translatable="false">From</string>
 
 
 </resources>

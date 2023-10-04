@@ -19,7 +19,20 @@
         android:hint="@string/to">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edit_text_to"
+            android:id="@+id/txt_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyTextInputLayout_overlay_compose"
+        android:hint="@string/from">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_from"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress" />
@@ -33,7 +46,7 @@
         android:hint="@string/subject">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edit_text_subject"
+            android:id="@+id/txt_subject"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailSubject" />
@@ -47,7 +60,7 @@
         android:hint="@string/message">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edit_text_message"
+            android:id="@+id/txt_content"
             android:layout_width="match_parent"
             android:layout_height="400dp"
             android:gravity="start|top" />
